@@ -33,7 +33,7 @@ public class Main {
 
                 //if p3 and p4 are in our list it means we will have p1-p2 the first diagonal in our list
                 //and p3-p4 the second diagonal also in our list
-                //So we have a square and we increment answer
+                //So we have a rectangle and we increment answer
                 Boolean ok1 = false;
                 Boolean ok2 = false;
                 for(Pair<Integer,Integer> p:points)
@@ -54,7 +54,7 @@ public class Main {
         }
     }
 
-        //We have to divide answer by 4 because we take the diagonal points(p1 and p2) of a single square in 4 ways
+        //We have to divide answer by 4 because we take the diagonal points(p1 and p2) of a single rectangle in 4 ways
         System.out.println(answer/4);
     }
 }
